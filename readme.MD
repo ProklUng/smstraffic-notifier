@@ -44,8 +44,8 @@ where:
  `services.yaml`
  
  ```yaml
-  Prokl\Component\Notifier\Bridge\SmsTrafficTransportFactory:
-    class: Prokl\Component\Notifier\Bridge\SmsTrafficTransportFactory
+  Prokl\Component\Notifier\Bridge\SmsTraffic\SmsTrafficTransportFactory:
+    class: Prokl\Component\Notifier\Bridge\SmsTraffic\SmsTrafficTransportFactory
     tags: ['texter.transport_factory']
  ```
  
