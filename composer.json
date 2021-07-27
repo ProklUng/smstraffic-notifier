@@ -2,7 +2,7 @@
   "name": "proklung/smstraffic-notifier",
   "description": "Symfony SMSTRAFFIC.RU Notifier Bridge",
   "type": "symfony-bridge",
-  "keywords": ["sms", "smsc", "notifier"],
+  "keywords": ["sms", "smstraffic", "notifier"],
   "license": "MIT",
   "authors": [
     {
