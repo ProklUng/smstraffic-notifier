@@ -27,7 +27,7 @@ DSN example
 -----------
 
 ```
-SMSC_DSN=smstraffic://LOGIN:PASSWORD@default?from=FROM
+SMSTRAFFIC_DSN=smstraffic://LOGIN:PASSWORD@default?from=FROM
 ```
 
 where:
