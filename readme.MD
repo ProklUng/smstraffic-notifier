@@ -34,3 +34,19 @@ where:
  - `LOGIN` is your login
  - `PASSWORD` is your API password
  - `FROM` is your sender (NB: text identity, not a phone number)
+ 
+ Нюансы
+ ------
+ 
+ В кастомных вариантах `Symfony` фабрику `SmsTrafficTransportFactory` надо пометить тэгом вручную (автоконфигурация
+ не срабатывает).
+ 
+ `services.yaml`
+ 
+ ```yaml
+  Prokl\Component\Notifier\Bridge\SmsTrafficTransportFactory:
+    class: Prokl\Component\Notifier\Bridge\SmsTrafficTransportFactory
+    tags: ['texter.transport_factory']
+ ```
+ 
+ 
