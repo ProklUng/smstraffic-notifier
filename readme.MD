@@ -1,7 +1,7 @@
 SMSTRAFFIC Notifier
 =============
 
-Provides [SMSC](https://smstraffic.ru/) integration for Symfony Notifier.
+Provides [SMSTRAFFIC](https://smstraffic.ru/) integration for Symfony Notifier.
 
 Installation
 -----------
